@@ -1,0 +1,1132 @@
+@media screen and (max-width: 425px) {
+  .navbar {
+    height: 10vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navbar .logo > img {
+    width: 200px;
+  }
+  .navbar .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    z-index: 6;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
+    width: 100%;
+    background-color: #fff;
+    align-items: flex-start;
+  }
+  .navbar .nav-links a {
+    font-size: 0.8rem;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+  }
+  .navbar .nav-links a:hover {
+    background-color: #f5f5f5;
+  }
+  .navbar .menu-controls {
+    display: block;
+  }
+  .navbar .menu-controls .menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .navbar .menu-controls .close-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .page-banner {
+    height: 20vh;
+  }
+  .page-banner h1 {
+    font-size: 2rem;
+  }
+  footer .part1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+  footer .part1 h3 {
+    padding: 0.5rem 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  footer .part1 input {
+    width: 160px;
+    height: 50px;
+    font-size: 1rem;
+  }
+  footer .part2 {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  footer .part2 .nav-links {
+    flex: 1 0 auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 1rem 0;
+    width: 100%;
+  }
+  footer .part2 .nav-links a {
+    margin: 0.3rem 0;
+  }
+  footer .part2 .icons {
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  footer .part2 .icons .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: 1.5rem;
+  }
+  footer .part2 .icons .icon .i {
+    font-size: 1.1rem;
+  }
+  footer .part3 span {
+    font-size: 0.9rem;
+    padding: 0.8rem 0;
+  }
+  .home-page .banner {
+    height: 90vh;
+  }
+  .home-page .banner h1 {
+    font-size: 3rem;
+  }
+  .home-page .banner p {
+    font-size: 1.2rem;
+    width: 90%;
+    line-height: 1.6;
+    margin: 0.4rem 0;
+  }
+  .home-page .banner input {
+    width: 200px;
+    height: 50px;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .home-page .section1 {
+    flex-direction: column;
+  }
+  .home-page .section1 .left {
+    flex: 0 0 50%;
+    order: 1;
+  }
+  .home-page .section1 .left .image-tiles {
+    gap: 0.6rem;
+    padding: 3rem 0;
+  }
+  .home-page .section1 .left .image-tiles img {
+    width: 190px;
+    height: 200px;
+  }
+  .home-page .section1 .right {
+    flex: 0 0 60%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1rem;
+  }
+  .home-page .section1 .right h2 {
+    font-size: 2.1rem;
+    padding: 1.5rem 0;
+  }
+  .home-page .section1 .right p {
+    font-size: 1.2rem;
+    line-height: 1.85;
+  }
+  .home-page .section2 {
+    padding: 1rem 0;
+  }
+  .home-page .section2 h2 {
+    font-size: 2.1rem;
+    padding: 1.5rem 0.4rem;
+  }
+  .home-page .section2 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
+  .home-page .section2 .cards {
+    margin: 1.5rem 0;
+    padding: 0 1rem;
+    flex-direction: column;
+  }
+  .home-page .section2 .cards .card {
+    width: 100%;
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+  }
+  .home-page .section2 .cards .card h3 {
+    font-size: 1.6rem;
+    padding: 0.8rem 0;
+  }
+  .home-page .section2 .cards .card .icon {
+    font-size: 2.5rem;
+  }
+  .home-page .section2 .cards .card p {
+    padding: 0.4rem 0.4rem;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .home-page .section2 .cards .card input {
+    width: 150px;
+    height: 40px;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .home-page .section3 {
+    padding: 2rem 0;
+  }
+  .home-page .section3 > h3 {
+    font-size: 2.1rem;
+    padding: 1.5rem 0 0.4rem 0;
+  }
+  .home-page .section3 .unit {
+    margin: 2rem 1rem;
+  }
+  .home-page .section3 .unit h3 {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+  }
+  .home-page .section3 .unit .steps {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .home-page .section3 .unit .steps .step {
+    width: 100%;
+    padding: 0.3rem 0.6rem;
+    align-items: flex-start;
+  }
+  .home-page .section3 .unit .steps .step .icon-box {
+    width: 30px;
+    height: 30px;
+  }
+  .home-page .section3 .unit .steps .step .icon-box span {
+    font-size: 1rem;
+  }
+  .home-page .section3 .unit .steps .step h3 {
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+  }
+  .home-page .section3 .unit .steps .step p {
+    padding: 0.3rem 0;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    width: 100%;
+  }
+  .home-page .section4 {
+    padding: 4rem 1rem;
+  }
+  .home-page .section4 h3 {
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+  .home-page .section4 p {
+    width: 100% !important;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding-bottom: 1rem;
+  }
+  .home-page .section4 input {
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .about-page .about-content {
+    flex-direction: column;
+    margin: 1rem 0.9rem;
+  }
+  .about-page .about-content .left {
+    flex: 1;
+  }
+  .about-page .about-content .left h3 {
+    font-size: 1.8rem;
+    padding: 0.6rem 0;
+  }
+  .about-page .about-content .left span {
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+    line-height: 1.5;
+  }
+  .about-page .about-content .left p {
+    font-size: 1.1rem;
+    padding: 0.8rem 0;
+    line-height: 1.9;
+  }
+  .about-page .about-content .right {
+    flex: 1;
+  }
+  .about-page .about-content .right img {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .contact-page .contact-content {
+    padding: 2rem 0;
+  }
+  .contact-page .contact-content .contact-area {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .contact-page .contact-content .contact-area .contact-form {
+    padding: 1.5rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card {
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .icon {
+    width: 40px;
+    height: 40px;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .icon .i {
+    font-size: 1.1rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .card-body {
+    padding: 0 0.6rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .card-body h5 {
+    font-size: 0.85rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .card-body span {
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+  }
+  .contact-page .contact-content .contact-area form {
+    order: 2;
+    padding: 2rem;
+  }
+  .contact-page .contact-content .contact-area form h3 {
+    height: 60px;
+    font-size: 1.8rem;
+    padding: 0.5rem 0;
+  }
+  .contact-page .contact-content .contact-area form p {
+    padding-bottom: 0.5rem;
+    line-height: 1.5;
+    font-size: 1.1rem;
+  }
+  .contact-page .contact-content .contact-area form .form-group {
+    margin-bottom: 1rem;
+  }
+  .contact-page .contact-content .contact-area form .form-group input {
+    width: 175px;
+    padding: 0.6rem 0.7rem;
+    font-size: 0.9rem;
+  }
+  .contact-page .contact-content .contact-area form .form-group textarea {
+    width: 100%;
+    height: 150px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  .contact-page .contact-content .contact-area form input {
+    width: 100%;
+    height: 60px;
+    padding: 1rem 0.6rem;
+    font-size: 1rem;
+  }
+  .contact-page .contact-content .map {
+    padding: 2rem 1rem;
+  }
+  .contact-page .contact-content .map h3 {
+    padding: 0.6rem 0;
+    font-size: 1.8rem;
+  }
+  .contact-page .contact-content .map p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .contact-page .contact-content .map img {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .find-nanny-container .find-nanny-content {
+    padding: 2.5rem 1rem;
+  }
+  .find-nanny-container .find-nanny-content .controls {
+    margin-bottom: 0.6rem;
+  }
+  .find-nanny-container .find-nanny-content .controls .category-control {
+    padding: 0.8rem 0;
+  }
+  .find-nanny-container .find-nanny-content .controls .category-control h3 {
+    font-size: 0.9rem;
+  }
+  .find-nanny-container .find-nanny-content .controls .category-control select {
+    margin: 0 0.8rem;
+    width: 120px;
+    height: 40px;
+    padding: 0 0.1rem 0;
+    font-size: 0.8rem;
+  }
+  .find-nanny-container .find-nanny-content .controls .search-box input {
+    width: 150px;
+    height: 30px;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list {
+    padding: 2rem 0;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card {
+    flex-basis: calc(50% - 1rem);
+    margin-right: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card img {
+    width: 100%;
+    height: 100px;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card h5 {
+    font-size: 1rem;
+    padding: 0.5rem 0.6rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card .chores {
+    align-items: center;
+    padding: 0 0.4rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card .chores span {
+    font-size: 0.8rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+    height: 1.1rem;
+    padding: 0.6rem 0.2rem;
+    border-radius: 2rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card .nanny-card-footer {
+    padding: 0.3rem 0.6rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card .nanny-card-footer p {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card input {
+    padding: 0.4rem;
+    margin: 0.4rem 0.6rem;
+  }
+  .apply-page .apply-container {
+    padding: 3rem 1rem;
+  }
+  .apply-page .apply-container h1 {
+    font-size: 1.8rem;
+    padding: 0.8rem 0;
+  }
+  .apply-page .apply-container p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  .apply-page .apply-container form {
+    padding: 3rem 0;
+  }
+  .apply-page .apply-container form .form-group {
+    margin-bottom: 0.8rem;
+  }
+  .apply-page .apply-container form .form-group select, .apply-page .apply-container form .form-group input[type=text] {
+    width: calc(50% - 0.4rem);
+    height: 50px;
+    padding: 0.9rem 0.9rem;
+    font-size: 0.85rem;
+  }
+  .apply-page .apply-container form .form-group .inner-group span {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+  }
+  .apply-page .apply-container form .form-group .inner-group div {
+    padding: 0.8rem 0;
+  }
+  .apply-page .apply-container form .form-group .inner-group div input {
+    width: 15px;
+    height: 15px;
+  }
+  .apply-page .apply-container form .form-group .inner-group div label {
+    font-size: 0.85rem;
+  }
+  .apply-page .apply-container form .form-group span {
+    margin-bottom: 0.2rem;
+    font-size: 0.85rem;
+  }
+  .apply-page .apply-container form .form-group div {
+    padding: 1rem 0;
+  }
+  .apply-page .apply-container form .form-group div input {
+    width: 15px;
+    height: 15px;
+  }
+  .apply-page .apply-container form .form-group div label {
+    font-size: 0.85rem;
+  }
+  .apply-page .apply-container form .form-group textarea {
+    width: 100%;
+    height: 150px;
+    padding: 0.9rem 0.9rem;
+    font-size: 0.9rem;
+  }
+  .apply-page .apply-container form .form-group:nth-child(6) {
+    flex-direction: column;
+  }
+  .apply-page .apply-container form .form-group:nth-child(6) select {
+    width: 100%;
+  }
+  .apply-page .apply-container form .form-group:nth-child(7) {
+    flex-direction: column;
+  }
+  .apply-page .apply-container form input[type=submit] {
+    width: 100%;
+    height: 55px;
+    font-size: 1rem;
+  }
+  .admin-login {
+    display: flex;
+    flex-direction: column;
+  }
+  .admin-login .left img {
+    width: 300px;
+  }
+  .admin-login .right {
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+  .admin-login .right h2 {
+    font-size: 2rem;
+  }
+  .admin-login .right p {
+    font-size: 1.1rem;
+    padding-bottom: 1.5rem;
+  }
+  .admin-login .right form {
+    margin-top: 0.8rem;
+  }
+  .admin-login .right form input {
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+  }
+  .admin-dashboard nav .logo img {
+    width: 200px;
+  }
+  .admin-dashboard nav .nav-links .profile {
+    padding: 0.5rem 1rem;
+  }
+  .admin-dashboard nav .nav-links .profile .admin-icon {
+    font-size: 1.1rem;
+  }
+  .admin-dashboard nav .nav-links .profile span {
+    font-size: 1rem;
+    margin: 0 0.4rem;
+  }
+  .admin-dashboard nav .nav-links .profile .icon {
+    font-size: 1rem;
+  }
+  .admin-dashboard main {
+    padding: 1rem;
+  }
+  .admin-dashboard main .title {
+    padding: 1rem 0;
+  }
+  .admin-dashboard main .title .icon {
+    font-size: 1.6rem;
+  }
+  .admin-dashboard main .title h1 {
+    font-size: 1.6rem;
+    padding: 0 0.5rem;
+  }
+  .admin-dashboard main .cards {
+    padding: 1rem 0;
+  }
+  .admin-dashboard main .cards .card {
+    width: calc(28.5714285714% + 0.8rem);
+    padding: 1.2rem;
+  }
+  .admin-dashboard main .cards .card .icon {
+    font-size: 1.3rem;
+  }
+  .admin-dashboard main .cards .card h2 {
+    font-size: 1rem;
+    padding: 0.3rem 0;
+  }
+  .admin-dashboard main .cards .card p {
+    font-size: 2rem;
+    padding: 0.4rem 0;
+  }
+  .admin-dashboard main .cards .card span {
+    font-size: 0.8rem;
+  }
+  .admin-dashboard section {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+  .admin-dashboard section .left {
+    overflow-x: scroll;
+  }
+  .admin-dashboard section .left h2 {
+    font-size: 1.3rem;
+  }
+  .admin-dashboard section .left table thead tr th {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .admin-dashboard section .right {
+    overflow-x: scroll;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .navbar .logo > img {
+    width: 250px;
+  }
+  .navbar .nav-links a {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .navbar .menu-controls {
+    display: none;
+  }
+  .page-banner {
+    height: 30vh;
+  }
+  .page-banner h1 {
+    font-size: 2.5rem;
+  }
+  footer .part1 {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3rem 0;
+  }
+  footer .part1 h3 {
+    padding: 0 1rem;
+    font-size: 2.5rem;
+  }
+  footer .part1 input {
+    width: 250px;
+    height: 55px;
+    font-size: 1.1rem;
+  }
+  footer .part2 {
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+  footer .part2 .nav-links {
+    justify-content: center;
+    padding: 2rem 0;
+    width: 100%;
+  }
+  footer .part2 .nav-links a {
+    margin-right: 2rem;
+  }
+  footer .part2 .icons {
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  footer .part2 .icons .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 1.5rem;
+  }
+  footer .part2 .icons .icon .i {
+    font-size: 1.5rem;
+  }
+  footer .part3 span {
+    font-size: 1.1rem;
+    padding: 1rem 0;
+  }
+  .home-page .banner {
+    height: 80vh;
+  }
+  .home-page .banner h1 {
+    font-size: 4.5rem;
+  }
+  .home-page .banner p {
+    font-size: 1.8rem;
+    width: 40%;
+    line-height: 1.6;
+  }
+  .home-page .banner input {
+    width: 200px;
+    height: 50px;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .home-page .section1 {
+    flex-direction: row;
+  }
+  .home-page .section1 .left {
+    flex: 0 0 50%;
+  }
+  .home-page .section1 .left .image-tiles {
+    gap: 0.6rem;
+    padding: 8rem 0;
+  }
+  .home-page .section1 .left .image-tiles img {
+    width: 250px;
+    height: 200px;
+  }
+  .home-page .section1 .right {
+    flex: 0 0 60%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-page .section1 .right h2 {
+    font-size: 2.2rem;
+    padding: 1.5rem 0;
+  }
+  .home-page .section1 .right p {
+    font-size: 1.2rem;
+    width: 75%;
+    line-height: 1.85;
+  }
+  .home-page .section2 {
+    padding: 1rem 0;
+  }
+  .home-page .section2 h2 {
+    font-size: 2.2rem;
+    padding: 1.5rem 0 0.4rem 0;
+  }
+  .home-page .section2 p {
+    font-size: 1.2rem;
+    line-height: 1.85;
+  }
+  .home-page .section2 .cards {
+    margin: 1rem 20rem;
+  }
+  .home-page .section2 .cards .card {
+    width: calc(33.3333333333% - 1rem);
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  .home-page .section2 .cards .card h3 {
+    font-size: 1.6rem;
+    padding: 0.8rem 0;
+  }
+  .home-page .section2 .cards .card .icon {
+    font-size: 3rem;
+  }
+  .home-page .section2 .cards .card p {
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .home-page .section2 .cards .card input {
+    width: 150px;
+    height: 40px;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .home-page .section3 {
+    padding: 2rem 0;
+  }
+  .home-page .section3 > h3 {
+    font-size: 2.2rem;
+    padding: 1.5rem 0 0.4rem 0;
+  }
+  .home-page .section3 .unit {
+    margin: 2rem 15rem;
+  }
+  .home-page .section3 .unit h3 {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+  }
+  .home-page .section3 .unit .steps {
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  .home-page .section3 .unit .steps .step {
+    width: calc(33.3333333333% - 1rem);
+    padding: 0.3rem 1rem;
+    align-items: flex-start;
+  }
+  .home-page .section3 .unit .steps .step .icon-box {
+    width: 40px;
+    height: 40px;
+  }
+  .home-page .section3 .unit .steps .step .icon-box span {
+    font-size: 1.4rem;
+  }
+  .home-page .section3 .unit .steps .step h3 {
+    font-size: 1.4rem;
+    padding: 0.8rem 0;
+  }
+  .home-page .section3 .unit .steps .step p {
+    padding: 0.4rem 0;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 85%;
+  }
+  .home-page .section4 {
+    padding: 4rem 0;
+  }
+  .home-page .section4 h3 {
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem;
+  }
+  .home-page .section4 p {
+    width: 60%;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding-bottom: 1rem;
+  }
+  .home-page .section4 input {
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .about-page .about-content {
+    flex-direction: row;
+    margin: 1rem 20rem;
+  }
+  .about-page .about-content .left {
+    flex: 1;
+  }
+  .about-page .about-content .left h3 {
+    font-size: 2rem;
+    padding: 0.8rem 0;
+  }
+  .about-page .about-content .left span {
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+    width: 70%;
+    line-height: 1.5;
+  }
+  .about-page .about-content .left p {
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+    line-height: 1.8;
+    width: 90%;
+  }
+  .about-page .about-content .right {
+    flex: 1;
+  }
+  .about-page .about-content .right img {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .contact-page .contact-content {
+    padding: 2.5rem 0;
+  }
+  .contact-page .contact-content .contact-area {
+    flex-direction: row;
+    margin: 0 20rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form {
+    flex: 0.5;
+    padding: 2rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .icon {
+    width: 50px;
+    height: 50px;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .icon .i {
+    font-size: 1.3rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .card-body {
+    padding: 0 0.6rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .card-body h5 {
+    font-size: 1rem;
+  }
+  .contact-page .contact-content .contact-area .contact-form .card .card-body span {
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+  }
+  .contact-page .contact-content .contact-area form {
+    flex: 1;
+    padding: 2rem;
+  }
+  .contact-page .contact-content .contact-area form h3 {
+    height: 60px;
+    font-size: 1.2rem;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+  }
+  .contact-page .contact-content .contact-area form p {
+    padding-bottom: 0.5rem;
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
+  .contact-page .contact-content .contact-area form .form-group {
+    margin-bottom: 1rem;
+  }
+  .contact-page .contact-content .contact-area form .form-group input {
+    width: 350px;
+    padding: 0.9rem 0.8rem;
+    font-size: 1.2rem;
+  }
+  .contact-page .contact-content .contact-area form .form-group textarea {
+    width: 100%;
+    height: 150px;
+    padding: 0.9rem 0.8rem;
+    font-size: 1.2rem;
+  }
+  .contact-page .contact-content .contact-area form input {
+    width: 100%;
+    height: 60px;
+    padding: 0.9rem 0.6rem;
+    font-size: 1rem;
+  }
+  .contact-page .contact-content .map {
+    padding: 2rem 0;
+  }
+  .contact-page .contact-content .map h3 {
+    padding: 0.6rem 0;
+    font-size: 2rem;
+  }
+  .contact-page .contact-content .map p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .contact-page .contact-content .map img {
+    width: 50%;
+    margin: 2rem 0;
+  }
+  .find-nanny-container .find-nanny-content {
+    padding: 2.5rem 20rem;
+  }
+  .find-nanny-container .find-nanny-content .controls {
+    margin-bottom: 1rem;
+  }
+  .find-nanny-container .find-nanny-content .controls .category-control {
+    padding: 1rem 0;
+  }
+  .find-nanny-container .find-nanny-content .controls .category-control h3 {
+    font-size: 1.2rem;
+  }
+  .find-nanny-container .find-nanny-content .controls .category-control select {
+    margin: 0 0.8rem;
+    width: 250px;
+    height: 40px;
+    padding: 0 0.6rem 0;
+    font-size: 1.1rem;
+  }
+  .find-nanny-container .find-nanny-content .controls .search-box input {
+    width: 300px;
+    height: 40px;
+    padding: 0.6rem 1rem;
+    font-size: 16px;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list {
+    padding: 3rem 0;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card {
+    flex-basis: calc(20% - 1rem);
+    margin-right: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card img {
+    width: 100%;
+    height: 100px;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card h5 {
+    font-size: 1.1rem;
+    padding: 0.5rem 0.6rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card .chores {
+    align-items: center;
+    padding: 0 0.6rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card .chores span {
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.4rem;
+    height: 1.2rem;
+    padding: 0.6rem 0.2rem;
+    border-radius: 2rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card .nanny-card-footer {
+    padding: 0.3rem 0.6rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card .nanny-card-footer p {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .find-nanny-container .find-nanny-content .nanny-list .nanny-card input {
+    padding: 0.4rem;
+    margin: 0.4rem 0.6rem;
+  }
+  .apply-page .apply-container {
+    padding: 3rem 25rem;
+  }
+  .apply-page .apply-container h1 {
+    font-size: 2rem;
+    padding: 0.8rem 0;
+  }
+  .apply-page .apply-container p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .apply-page .apply-container form {
+    margin: 1rem 0;
+    padding: 3rem 0;
+  }
+  .apply-page .apply-container form .form-group {
+    margin-bottom: 1rem;
+  }
+  .apply-page .apply-container form .form-group select, .apply-page .apply-container form .form-group input[type=text] {
+    width: 45%;
+    height: 55px;
+    padding: 0.9rem 0.9rem;
+    font-size: 1rem;
+  }
+  .apply-page .apply-container form .form-group .inner-group span {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .apply-page .apply-container form .form-group .inner-group div {
+    padding: 1rem 0;
+  }
+  .apply-page .apply-container form .form-group .inner-group div input {
+    width: 20px;
+    height: 20px;
+  }
+  .apply-page .apply-container form .form-group .inner-group div label {
+    font-size: 1rem;
+  }
+  .apply-page .apply-container form .form-group span {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+  }
+  .apply-page .apply-container form .form-group div {
+    padding: 1rem 0;
+  }
+  .apply-page .apply-container form .form-group div input {
+    width: 20px;
+    height: 20px;
+  }
+  .apply-page .apply-container form .form-group div label {
+    font-size: 1rem;
+  }
+  .apply-page .apply-container form .form-group textarea {
+    width: 100%;
+    height: 150px;
+    padding: 0.9rem 0.9rem;
+    font-size: 1rem;
+  }
+  .apply-page .apply-container form input[type=submit] {
+    width: 230px;
+    height: 55px;
+    font-size: 1.2rem;
+  }
+  .admin-login {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 700px 1fr;
+  }
+  .admin-login .left img {
+    width: 700px;
+  }
+  .admin-login .right {
+    padding: 0 5rem;
+  }
+  .admin-login .right h2 {
+    font-size: 2.5rem;
+  }
+  .admin-login .right p {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+  }
+  .admin-login .right form {
+    margin-top: 1rem;
+  }
+  .admin-login .right form input {
+    width: 400px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+  }
+  .admin-dashboard nav .logo img {
+    width: 300px;
+  }
+  .admin-dashboard nav .nav-links .profile {
+    padding: 0.8rem 2rem;
+  }
+  .admin-dashboard nav .nav-links .profile .admin-icon {
+    font-size: 1.3rem;
+  }
+  .admin-dashboard nav .nav-links .profile span {
+    font-size: 1rem;
+    margin: 0 0.4rem;
+  }
+  .admin-dashboard nav .nav-links .profile .icon {
+    font-size: 1.1rem;
+  }
+  .admin-dashboard main {
+    padding: 1rem;
+    padding: 0 15rem;
+  }
+  .admin-dashboard main .title {
+    padding: 2rem 0;
+  }
+  .admin-dashboard main .title .icon {
+    font-size: 2rem;
+  }
+  .admin-dashboard main .title h1 {
+    font-size: 2rem;
+    padding: 0 0.5rem;
+  }
+  .admin-dashboard main .cards {
+    padding: 1rem 0;
+  }
+  .admin-dashboard main .cards .card {
+    width: calc(28.5714285714% + 2rem);
+    padding: 1.5rem;
+  }
+  .admin-dashboard main .cards .card .icon {
+    font-size: 1.5rem;
+  }
+  .admin-dashboard main .cards .card h2 {
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+  }
+  .admin-dashboard main .cards .card p {
+    font-size: 3rem;
+    padding: 0.4rem 0;
+  }
+  .admin-dashboard main .cards .card span {
+    font-size: 1rem;
+  }
+  .admin-dashboard section {
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+  .admin-dashboard section .left h2 {
+    font-size: 1.6rem;
+  }
+  .admin-dashboard section .left table thead tr th {
+    font-size: 1.1rem;
+    padding: 0.6rem;
+  }
+}/*# sourceMappingURL=index.css.map */
